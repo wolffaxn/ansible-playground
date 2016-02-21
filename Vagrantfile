@@ -6,6 +6,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
+  # Ubuntu 15.10
   BOX = "ubuntu/wily64"
 
   # create management node
