@@ -6,6 +6,10 @@ apt-add-repository -y ppa:ansible/ansible
 apt-get update
 apt-get -y install ansible
 
+# copy playbooks into home folder
+cp -a /vagrant/playbooks/* /home/vagrant
+chown -R vagrant:vagrant /home/vagrant
+
 # configure hosts file for our internal network
 cat << EOF >> /etc/hosts
 
