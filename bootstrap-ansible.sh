@@ -7,7 +7,7 @@ apt-get update
 apt-get -y install ansible
 
 # configure hosts file for our internal network
-cat << EOF > /etc/hosts
+cat << EOF >> /etc/hosts
 
 # vagrant environment nodes
 10.0.15.10  mgmt
