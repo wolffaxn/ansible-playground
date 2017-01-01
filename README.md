@@ -6,4 +6,4 @@ Project to play with Ansible.
 
 ## License
 
-Copyright 2016 Alexander Wolff, Licensed under the MIT License.
+Copyright 2016-2017 Alexander Wolff, Licensed under the MIT License.
